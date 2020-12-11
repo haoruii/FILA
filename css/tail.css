@@ -1,0 +1,75 @@
+.footer{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #03234c;
+}
+.footleft{
+    
+    float: left;
+    
+    
+}
+.footleft ul > li {
+    display: inline-block;
+    
+    margin-right: 20px;
+    line-height: 50px;
+}
+.footleft a{
+    color: #fff;
+}
+.guanyu{
+    display: inline-block;
+    vertical-align: top;
+}
+.guanyu span{
+    color: #fff;
+}
+.guanyu img{
+    margin-top: 14px;
+    
+}
+.guanyu .img1{
+    margin-right: 8px;
+}
+.fr{
+    float: right;
+}
+.ft-service{
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.ft-right{
+    color: #888;
+}
+.ft-right span{
+    display: block;
+}
+
+/* 客服 */
+.web-covers{
+    width: 120px;
+    position: fixed;
+    right: -1px;
+    top: 74%;
+    z-index: 99;
+    background:#fff;
+}
+.web-covers .cover-kefu{
+    border: 1px solid #000;
+    border-right: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 60px;
+    letter-spacing: 3px;
+    color: #000;
+    font-size: 14px;
+    display: block;
+    background: url(../img/common-pc.png)no-repeat;
+    background-size: 22px auto;
+    background-position: 24px -33px;
+}

@@ -1,0 +1,289 @@
+.center{
+    width: 1316px;
+    margin: 0 auto;
+   
+}
+.header{
+    
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+    height: 100px;
+}
+.logo{
+   
+    padding-top: 33px;
+    float: left;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    /* float: left; */
+}
+.right-box{
+    width: 400px;
+    float: right;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-right: 25px;
+    font-size: 16px;
+}
+.navbar input{
+    /* float: right; */
+    margin-top: 38px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    outline: none;
+    resize: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+.navbar button{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    resize: none;
+    border: none;
+    background: none;
+}
+.navbar-list{
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-list>li{
+    font-size: 14px;
+    padding: 0 2px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.navbar-lock .icon-cart{
+    display: block;
+    padding-top: 10px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/common-pc.png);
+    background-position: -3px 2px;
+    background-size: 22px;
+}
+/* 提示登录界面 */
+.middle-banner{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+}
+.cart-to-login{
+    margin: 30px auto;
+    width: 1200px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 15px 20px;
+    color: #999;
+    font-size: 13px;
+    line-height: 18px;
+    /* display: none; */
+}
+.cart-to-login h4{
+    color: #cf112b;
+    font-size: 16px;
+    line-height: 30px;
+    /* display: none; */
+}
+.cart-to-login p{
+    padding: 3px 0;
+    /* display: none; */
+}
+.cart-to-login a{
+    color: #888;
+    display: inline-block;
+    border-bottom: 1px solid #999;
+}
+.cart-main{
+    margin-bottom: 50px;
+    margin: 30px 36px;
+    width: 1244px;
+    overflow: hidden;
+}
+.cart-title{
+    height: 50px;
+    line-height: 50px;
+}
+.cart-title span {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    color: #03234c;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.cart-title i {
+    font-style: normal;
+    color: #999;
+    margin-left: 10px;
+    vertical-align: bottom;
+    display: inline-block;
+    line-height: 35px;
+    font-size: 12px;
+}
+.cart-empty{
+    margin: 30px 0;
+}
+.cart-empty img{
+    display: block;
+    width: 80px;
+    margin: 0 auto 15px;
+    display: none;
+}
+.cart-empty p {
+    text-align: center;
+    line-height: 18px;
+    font-size: 13px;
+    color: #999;
+    padding: 3px 0px;
+    display: none;
+}
+.cart-empty p a {
+    display: inline-block;
+    color: #888;
+    border-bottom: 1px solid #999;
+    display: none;
+}
+.shangpin{
+    margin: 40px auto;
+    width: 1200px;
+    height: 100px;
+    border: 1px solid #03234c;
+}
+
+.yuan{
+    width: 50px;
+    height: 20px;
+    
+    margin-left: 20px;
+    position: relative;
+}
+.quan{
+    width: 16px;
+    height: 16px;
+    background-color: #03234c;
+    border-radius: 50%;
+}
+.yuan span{
+    position: absolute;
+    top: 0px;
+    right: -10px;
+}
+
+.footer {
+    z-index: 100;
+    position: fixed;
+    height: 70px;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1280px;
+    border-top: 1px solid #5d5d5d;
+    bottom: 0;
+    left: 0;
+    background: #03234c;
+    background: rgba(3, 35, 76, 0.98);
+    color: #fff;
+}
+.footer .midd{
+    
+    font-size: 14px;
+    width: 1000px;
+    margin: 0 auto;
+    height: 70px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+.select-all{
+    float: left;
+}
+.footer .select-all i{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+}
+.footer .select-all a{
+    margin-right: 15px;
+    color: #fff;
+    
+}
+.tobal-price{
+    float: right;
+    position: relative;
+    margin-right: 25px;
+    
+}
+.tobal-price span{
+    display: block;
+    line-height: 14px;
+}
+.tobal-price .price{
+    font-size: 18px;
+    line-height: 30px;
+}
+.settlement{
+    height: 40px;
+    padding: 0 30px;
+    border-left: 1px solid #999;
+    margin-top: 15px;
+    float: left;
+}
+.settlement a{
+    display: block;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background: #cf112b;
+    line-height: 40px;
+    font-size: 15px;
+   
+    color: #fff;
+}
+
+/* 客服 */
+.web-covers{
+    width: 120px;
+    position: fixed;
+    right: -1px;
+    top: 74%;
+    z-index: 99;
+    background:#fff;
+}
+.web-covers .cover-kefu{
+    border: 1px solid #000;
+    border-right: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 60px;
+    letter-spacing: 3px;
+    color: #000;
+    font-size: 14px;
+    display: block;
+    background: url(../img/common-pc.png)no-repeat;
+    background-size: 22px auto;
+    background-position: 24px -33px;
+} 

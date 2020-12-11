@@ -1,0 +1,341 @@
+.center{
+    width: 1316px;
+    margin: 0 auto;
+   
+}
+.header{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+    overflow: hidden;
+}
+.logo{
+   
+    padding-top: 33px;
+    float: left;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    /* float: left; */
+}
+.right-box{
+    width: 400px;
+    float: right;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-right: 25px;
+    font-size: 16px;
+}
+.navbar input{
+    /* float: right; */
+    margin-top: 38px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    outline: none;
+    resize: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+.navbar button{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    resize: none;
+    border: none;
+    background: none;
+}
+.navbar-list{
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-list>li{
+    font-size: 14px;
+    padding: 0 2px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.navbar-lock .icon-cart{
+    display: block;
+    padding-top: 10px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/common-pc.png);
+    background-position: -3px 2px;
+    background-size: 22px;
+}
+
+/* 左边 */
+.middle-banner {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    margin: 30px;
+    /* height: 300px; */
+}
+.list{
+    width: 50px;
+    height: 600px;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+}
+.list .active{
+    border: solid 2px #03234c;
+    box-sizing: border-box;
+}
+.list p{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+}
+.list img{
+    width: 100%;
+    overflow: hidden;
+}
+.show{
+    width: 645px;
+    height: 645px;
+    margin-left: 15px;
+    height: 645px;
+    position: relative;
+    border: 2px solid #eee;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.box{
+    width: 740px;
+    float: left;
+    position: relative;
+}
+.show img{
+    width: 100%;
+    overflow: hidden;
+}
+.show .mask{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    pointer-events: none;
+    display: none;
+}
+.enlarge{
+    width: 400px;
+    height: 400px;
+   
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-image: url(../img/商品.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: 0 0;
+    display: none;
+}
+/* 右边文字 */
+.pro-infos{
+    float: left;
+    /* width: 540px; */
+    padding-left: 19px;
+}
+.pro-infos .goods-name {
+    font-size: 25px;
+    line-height: 40px;
+    color: #03234c;
+}
+.pro-infos .goods-sn {
+    font-size: 15px;
+    color: #999;
+    line-height: 25px;
+}
+.pro-infos .goods-price {
+    font-size: 22px;
+    color: #03234c;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.pro-infos .goods-price .mktprice {
+    color: #999;
+    text-decoration: line-through;
+    font-weight: normal;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.promos{
+    background: #f7f7f7;
+    padding: 20px;
+}
+.promos-title{
+    height: 22px;
+    line-height: 20px;
+    width: 44px;
+    background: #03234c;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 2px;
+    margin-top: 2px;
+}
+.f1{
+    float: left;
+}
+.promos-content{
+    margin-left: 60px;
+}
+.promos-content a{
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 3px 0;
+    color: #03234c;
+   
+}
+.color-module{
+    margin-top: 24px;
+    color: #03234c;
+    font-size: 14px;
+}
+.color-module .modules{
+    display: flex;
+}
+.color-module .modules li{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid #f4f4f4;
+    overflow: hidden;
+}
+.color-module .modules .active{
+    border: 2px solid #03234c;
+}
+.color-module .modules li img{
+    width: 100%;
+}
+.sizes{
+    margin-top: 24px;
+    color: #03234c;
+    font-size: 14px;
+}
+.attr_list{
+    display: flex;
+}
+.attr_list li{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.buy{
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.buy span{
+    font-size: 14px;
+    color: #03234c;
+}
+.buy .pro-num{
+    float: right;
+}
+.pro-num a{
+    display: inline-block;
+    height: 24px;
+    width: 28px;
+    line-height: 24px;
+    border: 1px solid #f4f4f4;
+    border-radius: 2px;
+    background: #f4f4f4;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+.pro-num .num-input{
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    line-height: 26px;
+    color: #666;
+    margin: 0;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 0 5px;
+    text-align: center;
+    outline: 0;
+    font-size: 13px;
+}
+.goods-btns > a{
+    height: 56px;
+    line-height: 54px;
+    display: block;
+    width: 47%;
+    text-align: center;
+    border: 1px solid #03234c;
+    color: #03234c;
+    font-size: 16px;
+    margin-top: 10px;
+    background: #fff;
+}
+.goods-btns a:nth-child(1){
+    float: left;
+}
+.goods-btns a:nth-child(2){
+    float: right;
+}
+.goods-btns .btn-toBuy{
+    background: #03234c;
+    color: #fff;
+}
+/* 客服 */
+.web-covers{
+    width: 120px;
+    position: fixed;
+    right: -1px;
+    top: 74%;
+    z-index: 99;
+    background:#fff;
+}
+.web-covers .cover-kefu{
+    border: 1px solid #000;
+    border-right: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 60px;
+    letter-spacing: 3px;
+    color: #000;
+    font-size: 14px;
+    display: block;
+    background: url(../img/common-pc.png)no-repeat;
+    background-size: 22px auto;
+    background-position: 24px -33px;
+} 
+

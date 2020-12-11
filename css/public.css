@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,input,button,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+i,b{
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none !important;
+    color: #333;
+}
+input{
+    outline: none;
+}
